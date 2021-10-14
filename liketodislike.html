@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <i onclick ="change()" class="fa fa-thumbs-up" id="like" style="font-size: 48px;color: grey;"></i>
+   
+
+    <script>
+        function change(){
+            var ele = document.getElementById("like")
+            if(document.getElementById("like").className=="fa fa-thumbs-up"){
+                document.getElementById("like").className="fa fa-thumbs-down";
+            }
+
+            else{
+                document.getElementById("like").className="fa fa-thumbs-up";
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

@@ -105,5 +105,5 @@ myConcat('; ', 'elephant', 'giraffe', 'lion', 'cheetah');
 // returns "sage. basil. oregano. pepper. parsley. "
 myConcat('. ', 'sage', 'basil', 'oregano', 'pepper', 'parsley');
 
-console.log(result1);
-var a2 = a.map
+//console.log(result1);
+//var a2 = a.reduce()

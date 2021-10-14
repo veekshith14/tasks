@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="display()">like</button><span id="lk">0</span>
+        <button onclick = "displayDislikes()">dislike</button><span id="dlk">0</span>
+        
+        <script>
+            var likes=0;
+            function display(){
+                //var likes=0;
+                likes++
+                
+                document.getElementById("lk").innerHTML= likes;
+            }
+            var dislikes =0;
+            function displayDislikes(){
+                var dislikes =0;
+                dislikes++;
+                document.getElementById("dlk").innerHTML= dislikes;
+            }
+        
+            
+
+
+        </script>
+    </body>
+</html>
