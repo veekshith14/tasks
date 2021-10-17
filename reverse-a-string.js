@@ -1,17 +1,26 @@
-var str = 'hello this is a paragraph ';
-var arr ='';
-
-str=str.split(' ');
- var length =str.length-1;
-function reverse(){
-    for(i=0;i<str.length;i++){
-        
-        var result =str[length-i];
-        var arr =+ result;
-        //console.log(arr);
-        }
-     console.log(arr);
-     //var ree=arr.toString(' ');
-     //console.log(ree);
+var str = 'hello this is a paragraph';
+var arr = str.split('');
+var str2=" ";
+console.log(arr);
+for(var i=arr.length-1;i>=0;i--){
+    var str1=arr[i];
+     str2 =str2.concat(str1);
+    console.log(str2);
 }
-reverse();
+
+
+
+function reverseString(str) {
+    var arr=str.split('');
+    var empty='';
+    for(var i =arr.length-1;i>=0;i--){
+      var result = arr[i];
+       empty =empty.concat(arr[i]);
+  
+    }
+    console.log(empty)
+    return empty;
+  }
+  
+  reverseString("hello");
+  reverseString("Greetings from Earth")
